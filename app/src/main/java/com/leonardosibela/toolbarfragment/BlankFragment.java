@@ -26,6 +26,7 @@ public class BlankFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_blank, container, false);
 
         Toolbar toolbar = view.findViewById(R.id.toolbar);
+        toolbar.setTitle(R.string.toolbar_fragment);
         mListener.setToolbar(toolbar);
 
         return view;
